@@ -1,0 +1,91 @@
+[[package]]
+category = "main"
+description = "Screen-scraping library"
+name = "beautifulsoup"
+optional = false
+python-versions = "*"
+version = "3.2.2"
+
+[[package]]
+category = "main"
+description = "Python package for providing Mozilla's CA Bundle."
+name = "certifi"
+optional = false
+python-versions = "*"
+version = "2020.12.5"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+name = "idna"
+optional = false
+python-versions = "*"
+version = "2.5"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests2"
+optional = false
+python-versions = "*"
+version = "2.16.0"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+chardet = ">=3.0.2,<3.1.0"
+idna = ">=2.5,<2.6"
+urllib3 = ">=1.21.1,<1.22"
+
+[package.extras]
+security = ["cryptography (>=1.3.4)", "idna (>=2.0.0)", "pyOpenSSL (>=0.14)"]
+socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7)", "win-inet-pton"]
+
+[[package]]
+category = "main"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+name = "urllib3"
+optional = false
+python-versions = "*"
+version = "1.21.1"
+
+[package.extras]
+secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "ipaddress"]
+socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
+
+[metadata]
+content-hash = "e25e40088ea70fd6b3cf491c633666ce9da7ac9738f5248774787f30eba3c386"
+python-versions = "^3.8"
+
+[metadata.files]
+beautifulsoup = [
+    {file = "BeautifulSoup-3.2.2-py2-none-any.whl", hash = "sha256:d31413d71f6ca027ff6b06c891b62ee8ff48267ccd969f881d810e5d1fe49565"},
+    {file = "BeautifulSoup-3.2.2.tar.gz", hash = "sha256:a04169602bff6e3138b1259dbbf491f5a27f9499dea9a8fbafd48843f9d89970"},
+]
+certifi = [
+    {file = "certifi-2020.12.5-py2.py3-none-any.whl", hash = "sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"},
+    {file = "certifi-2020.12.5.tar.gz", hash = "sha256:1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c"},
+]
+chardet = [
+    {file = "chardet-3.0.4-py2.py3-none-any.whl", hash = "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"},
+    {file = "chardet-3.0.4.tar.gz", hash = "sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae"},
+]
+idna = [
+    {file = "idna-2.5-py2.py3-none-any.whl", hash = "sha256:cc19709fd6d0cbfed39ea875d29ba6d4e22c0cebc510a76d6302a28385e8bb70"},
+    {file = "idna-2.5.tar.gz", hash = "sha256:3cb5ce08046c4e3a560fc02f138d0ac63e00f8ce5901a56b32ec8b7994082aab"},
+]
+requests2 = [
+    {file = "requests2-2.16.0-py2.py3-none-any.whl", hash = "sha256:141d4f8ad6c1b68932d54f71f303c2aef681556b519c490ec83da193761a9f91"},
+    {file = "requests2-2.16.0.tar.gz", hash = "sha256:f7685b2d620a172053cced288dddf12d4b3441a382cc382821c0f36c02488516"},
+]
+urllib3 = [
+    {file = "urllib3-1.21.1-py2.py3-none-any.whl", hash = "sha256:8ed6d5c1ff9d6ba84677310060d6a3a78ca3072ce0684cb3c645023009c114b1"},
+    {file = "urllib3-1.21.1.tar.gz", hash = "sha256:b14486978518ca0901a76ba973d7821047409d7f726f22156b24e83fd71382a5"},
+]
