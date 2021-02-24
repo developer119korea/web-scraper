@@ -6,8 +6,8 @@ authors = ["repl.it user <replituser@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-requests2 = "^2.16.0"
 bs4 = "^0.0.1"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 
