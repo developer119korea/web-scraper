@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect
-from scrapper import get_jobs
+from scraper import get_jobs
 
 app = Flask("SuperScrapper")
 
